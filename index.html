@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Aura — Arquitetura &amp; Interiores</title>
+    <meta
+      name="description"
+      content="Studio Aura — escritório de arquitetura e design de interiores em São Paulo. Luxo discreto, projetos residenciais e comerciais sob medida."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top" data-header>
+      <div class="site-header__inner">
+        <a class="logo" href="#top" aria-label="Studio Aura — início">
+          <span class="logo__text">Studio Aura</span>
+        </a>
+        <nav class="nav nav--desktop" aria-label="Principal">
+          <a href="#conceito">Conceito</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="site-header__actions">
+          <a
+            class="link-whatsapp"
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+          <button
+            type="button"
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            data-nav-toggle
+          >
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+        <nav aria-label="Mobile">
+          <a href="#conceito" data-nav-link>Conceito</a>
+          <a href="#portfolio" data-nav-link>Portfólio</a>
+          <a href="#sobre" data-nav-link>Sobre</a>
+          <a href="#contato" data-nav-link>Contato</a>
+          <a
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Abertura">
+        <div class="hero__media">
+          <video
+            class="hero__video"
+            src="src/assets/interior-dark-video.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+          <div class="hero__scrim" aria-hidden="true"></div>
+        </div>
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow">São Paulo · desde 2018</p>
+          <h1 class="display hero__title">Arquitetura que respira</h1>
+          <p class="body-lg hero__lede">
+            Projetos residenciais e comerciais onde luz, materialidade e silêncio
+            se encontram — com a precisão de um ateliê e a calma de uma galeria.
+          </p>
+          <a class="btn btn--primary" href="#portfolio">Explore projetos</a>
+        </div>
+        <a class="scroll-hint" href="#conceito">
+          <span>Scroll</span>
+          <span class="scroll-hint__line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="section section--flush conceito-strip" id="conceito">
+        <div class="conceito-strip__video-wrap">
+          <video
+            class="conceito-strip__video"
+            src="src/assets/video-camadas.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+          <div class="conceito-strip__overlay">
+            <div class="container conceito-strip__copy">
+              <p class="eyebrow conceito-strip__eyebrow">Conceito</p>
+              <p class="headline-md conceito-strip__title" data-parallax-title>
+                Camadas de atmosfera
+              </p>
+              <p class="body-md conceito-strip__text">
+                Cada ambiente é pensado como uma sequência de experiências: textura,
+                escala e luz natural moldam o ritmo do dia a dia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section metodologia" id="metodologia">
+        <div class="container metodologia__grid">
+          <div class="metodologia__intro">
+            <p class="eyebrow">Metodologia</p>
+            <h2 class="headline-lg metodologia__heading">Nosso processo</h2>
+            <ol class="process-list">
+              <li class="process-list__item">
+                <span class="process-list__num">01</span>
+                <div>
+                  <h3 class="headline-md process-list__title">Concepção</h3>
+                  <p class="body-md">
+                    Imersão no contexto, briefing aprofundado e conceito espacial
+                    que traduz identidade, rotina e desejo em partido arquitetônico.
+                  </p>
+                </div>
+              </li>
+              <li class="process-list__item">
+                <span class="process-list__num">02</span>
+                <div>
+                  <h3 class="headline-md process-list__title">Detalhamento</h3>
+                  <p class="body-md">
+                    Desenvolvimento técnico, especificação de materiais e
+                    luminotécnica — cada junta e cada tonalidade são resolvidas com
+                    rigor de ateliê.
+                  </p>
+                </div>
+              </li>
+              <li class="process-list__item">
+                <span class="process-list__num">03</span>
+                <div>
+                  <h3 class="headline-md process-list__title">Execução</h3>
+                  <p class="body-md">
+                    Acompanhamento de obra, curadoria de fornecedores e entrega com
+                    checklist de acabamento para um resultado impecável.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="metodologia__visual card-surface">
+            <video
+              class="metodologia__video"
+              src="src/assets/video-camadas.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+            <p class="label-caption metodologia__caption">
+              Estudo de camadas · vídeo de processo
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+          <div class="section-head portfolio__head">
+            <div>
+              <p class="eyebrow">Portfólio</p>
+              <h2 class="headline-lg portfolio__title" data-parallax-gallery>
+                Obras selecionadas
+              </h2>
+            </div>
+            <a class="text-link" href="#contato">Ver todos os projetos</a>
+          </div>
+          <div class="gallery-masonry">
+            <article class="gallery-card gallery-card--tall">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-sala.png"
+                    alt="Living integrado com iluminação indireta e painéis em madeira"
+                    width="800"
+                    height="1200"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Residência Brisa</h3>
+                  <p class="gallery-card__place">Jardins, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-cozinha.png"
+                    alt="Cozinha minimalista com ilha central e pedra natural"
+                    width="900"
+                    height="600"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Apartamento Horizonte</h3>
+                  <p class="gallery-card__place">Pinheiros, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-banheiro.png"
+                    alt="Banheiro tipo spa com volumes esculpidos e iluminação suave"
+                    width="800"
+                    height="1000"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Casa Oásis</h3>
+                  <p class="gallery-card__place">Alto de Pinheiros, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card gallery-card--wide">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-sala-2.png"
+                    alt="Sala de estar com pé-direito alto e grandes aberturas"
+                    width="1200"
+                    height="700"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Loft Aurora</h3>
+                  <p class="gallery-card__place">Vila Madalena, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-biblioteca.png"
+                    alt="Biblioteca com estantes embutidas e leitura natural"
+                    width="900"
+                    height="700"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Casa Acervo</h3>
+                  <p class="gallery-card__place">Morumbi, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-quarto.png"
+                    alt="Suíte principal com texturas neutras e cabeceira esculpida"
+                    width="900"
+                    height="1100"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Suíte Sereno</h3>
+                  <p class="gallery-card__place">Higienópolis, SP</p>
+                </div>
+              </a>
+            </article>
+            <article class="gallery-card">
+              <a class="gallery-card__link" href="#contato">
+                <div class="gallery-card__media">
+                  <img
+                    src="src/assets/projeto-terracota.png"
+                    alt="Ambiente com tonalidades terracota e luz dourada"
+                    width="900"
+                    height="900"
+                    loading="lazy"
+                    data-parallax-image
+                  />
+                </div>
+                <div class="gallery-card__meta">
+                  <h3 class="gallery-card__title">Casa Terracota</h3>
+                  <p class="gallery-card__place">Brooklin, SP</p>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sobre" id="sobre">
+        <div class="container sobre__grid">
+          <div class="sobre__portrait card-surface">
+            <div class="sobre__portrait-placeholder" aria-hidden="true">
+              <span class="sobre__monogram">MV</span>
+            </div>
+            <p class="label-caption sobre__portrait-note">
+              Marina Vasconcelos · fundadora
+            </p>
+          </div>
+          <div class="sobre__copy">
+            <p class="eyebrow">O estúdio</p>
+            <h2 class="headline-lg">Marina Vasconcelos</h2>
+            <div class="body-md sobre__body">
+              <p>
+                O Studio Aura nasce da convicção de que arquitetura de alto padrão
+                deve ser sentida antes de ser explicada: um silêncio confortável, uma
+                luz que envelhece bem, um plano que organiza a vida sem aparentar
+                esforço.
+              </p>
+              <p>
+                Com formação e atuação em São Paulo, Marina lidera cada projeto com
+                curadoria próxima ao cliente — do conceito à entrega — privilegiando
+                materiais autênticos, geometria limpa e ambientes que envelhecem com
+                elegância.
+              </p>
+            </div>
+            <blockquote class="sobre__quote">
+              <p>
+                “Busco a precisão do detalhe sem o ruído do supérfluo: cada escolha
+                existe para servir quem habita o espaço.”
+              </p>
+              <footer>— Marina Vasconcelos</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section depoimentos" id="depoimentos">
+        <div class="container">
+          <p class="eyebrow depoimentos__eyebrow">Depoimentos</p>
+          <h2 class="headline-lg depoimentos__title">Confiança construída em obra</h2>
+          <div class="testimonial-grid">
+            <figure class="testimonial card-surface">
+              <span class="testimonial__mark" aria-hidden="true">“</span>
+              <blockquote class="body-md">
+                Entrega impecável e sensibilidade rare. A casa virou refúgio —
+                exatamente o tom que sonhávamos.
+              </blockquote>
+              <figcaption class="testimonial__by">
+                <span class="testimonial__name">Carla &amp; Renato M.</span>
+                <span class="testimonial__proj">Residência Brisa</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial card-surface">
+              <span class="testimonial__mark" aria-hidden="true">“</span>
+              <blockquote class="body-md">
+                Marina traduziu nossa rotina em layout e acabamentos com uma
+                precisão de ateliê. O apartamento parece maior e muito mais calmo.
+              </blockquote>
+              <figcaption class="testimonial__by">
+                <span class="testimonial__name">Fernanda Lopes</span>
+                <span class="testimonial__proj">Apartamento Horizonte</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial card-surface">
+              <span class="testimonial__mark" aria-hidden="true">“</span>
+              <blockquote class="body-md">
+                Do briefing à obra, comunicação clara e estética consistente.
+                Recomendamos sem hesitar para projetos exigentes.
+              </blockquote>
+              <figcaption class="testimonial__by">
+                <span class="testimonial__name">Lucas L. L.</span>
+                <span class="testimonial__proj">Escritório Aurora</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contato" id="contato">
+        <div class="container contato__grid">
+          <div class="contato__intro">
+            <h2 class="headline-lg">Inicie um diálogo</h2>
+            <p class="body-md contato__lede">
+              Conte-nos sobre seu projeto, prazos e expectativas. Retornamos com
+              disponibilidade e próximos passos em até dois dias úteis.
+            </p>
+            <ul class="contato__details">
+              <li>
+                <span class="label-sm">Endereço</span>
+                <p class="body-md">
+                  Rua Example, 1000 — Jardins<br />São Paulo · SP
+                </p>
+              </li>
+              <li>
+                <span class="label-sm">E-mail</span>
+                <p class="body-md">
+                  <a href="mailto:contato@studioaura.com.br">contato@studioaura.com.br</a>
+                </p>
+              </li>
+              <li>
+                <span class="label-sm">WhatsApp</span>
+                <p class="body-md">
+                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener"
+                    >+55 11 99999-9999</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+          <form class="form card-surface" id="contact-form" novalidate>
+            <div class="form__row">
+              <label class="form__field">
+                <span class="label-sm">Nome</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__field">
+                <span class="label-sm">Tipo de projeto</span>
+                <select name="project_type" required>
+                  <option value="" disabled selected>Selecione</option>
+                  <option value="residencial">Residencial</option>
+                  <option value="comercial">Comercial</option>
+                  <option value="interiores">Interiores</option>
+                  <option value="consultoria">Consultoria</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__field">
+                <span class="label-sm">Mensagem</span>
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+            </div>
+            <button type="submit" class="btn btn--ghost form__submit">
+              Enviar mensagem
+            </button>
+            <p class="form__hint body-md" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__row footer__row--top">
+          <span class="logo__text footer__logo">Studio Aura</span>
+          <nav class="footer__social" aria-label="Redes sociais">
+            <a href="#" rel="noopener noreferrer">Instagram</a>
+            <a href="#" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" rel="noopener noreferrer">Pinterest</a>
+            <a href="#" rel="noopener noreferrer">Behance</a>
+          </nav>
+        </div>
+        <div class="footer__rule" aria-hidden="true"></div>
+        <div class="footer__row footer__row--bottom">
+          <p class="label-sm footer__tag">#arquiteturadealtopadrão</p>
+          <p class="body-md footer__legal">
+            © <span data-year></span> Studio Aura. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" data-toast hidden>
+      <p class="body-md" data-toast-text></p>
+    </div>
+
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
